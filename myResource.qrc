@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/myImages">
+        <file>Images/DefaultAvatar.png</file>
+    </qresource>
+</RCC>

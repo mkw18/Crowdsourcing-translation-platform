@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ContrastDlg</class>
+ <widget class="QDialog" name="ContrastDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="labFront">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>译者协议</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>70</y>
+     <width>461</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="plainText">
+    <string>亲爱的译者：
+
+欢迎您进入译言古登堡项目。在开始任何翻译、校对及其他工作之前，请您仔细阅读下面的协议文本，您在项目中所做的任何工作，都视为您在同意下述协议的前提下进行。
+
+译言古登堡项目译者协议
+
+本协议由参与译言古登堡项目的译者与运营方（北京译言协力传媒科技有限公司）之间订立。
+
+一、翻译/校对工作
+
+1. 译者应独立或协作完成项目所包含的全部原文的翻译工作；
+
+2. 译者应在项目负责人协调下完成译文的校对工作；
+
+3. 译者保证不抄袭，若因此引起权利纠纷，将由译者承担相应责任。
+
+二、翻译质量
+
+1. 译者应保证翻译的准确性和语言的流畅性；
+
+2. 译者应保持文字风格的统一性；
+
+3. 对于一些不为国内读者所熟悉的国外人名、地名、风俗、简称等，译者应酌情添加译注；
+
+4. 翻译质量达不到要求的，项目负责人或运营方有权更换译者。
+
+三、翻译进度
+
+1. 译者应保证在项目规定时间内完成翻译/校对工作；
+
+2. 译者不能按时完成翻译/校对工作的，项目负责人或运营方有权更换译者。
+
+四、译作权利
+
+1. 翻译作品的著作权由译者享有；
+
+2. 译者授权运营方（北京译言协力传媒科技有限公司）享有使用翻译作品的独家权利，包括发表权、修改权、保护作品完整权等著作权人身权利以及复制权、发行权（含数字发行权）、信息网络传播权、改编权等著作权财产权利；运营方有权向第三方转授这些权利；
+
+3. 译者享有翻译作品的译者署名权以及从运营方获得收入分成的权利；
+
+4. 译者不得将翻译作品授权其他机构使用，若有违反，译者应负全部责任及赔偿由此给运营方造成的一切损失。
+
+五、收入分成
+
+1. 作品净收入的50％归运营方（北京译言协力传媒科技有限公司）所有，10%归项目负责人所有，40%归参与项目的译者所有，多个译者间的分成比例原则上根据译者的工作量决定，并可由项目负责人和译者间协商确定；
+
+2. 净收入的定义为运营方从销售渠道所获得的实际收入。以在iTunes 电子书店中发行电子版为例，若一部作品的售价为 12元人民币，其中的 30% （即 3.6 元人民币）归苹果公司所有，运营方的实际收入，也就是净收入，为 8.4 元人民币；
+
+3. 作品的电子版收入分成按自然季度结算，纸质版收入分成按年度结算；
+
+4. 结算时，若译者累计所得高于50元人民币，则运营方将译者所得汇入译者提供的支付宝账户；若单个结算周期所得不足50元，则累积至下一周期；
+
+5. 运营方有按国家规定为译者代扣代缴所得税的义务。
+
+六、纠纷仲裁
+
+1. 译者之间、译者与项目负责人之间应本着友好协作的精神完成项目，如有问题，应优先通过内部沟通协商解决；项目负责人在遵循公平合理的原则下有权对争执问题做出仲裁；
+
+2. 若内部沟通无法解决问题，或译者对项目负责人的仲裁无法接受，可向运营方提出申诉；运营方的仲裁为最终决定。
+
+七、其他
+
+1. 本协议的最终解释权归运营方所有；
+
+2. 运营方有权根据实际情况和变化修改本协议，修改后的协议应公布在译言网站上，并在译言网站首页的译言动态中发布声明。</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>620</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ContrastDlg</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>469</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>506</x>
+     <y>655</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

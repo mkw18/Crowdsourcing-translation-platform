@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Book</class>
+ <widget class="QMainWindow" name="Book">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>925</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>571</width>
+      <height>411</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>281</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="stateLab">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>状态</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="stateBox">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>所有</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>正在招募负责人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>正在招募译者</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>正在翻译</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>翻译完成</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>已上架</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="findBtn">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>查询</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="publishBtn">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>发布新任务</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>925</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>首页</string>
+    </property>
+    <addaction name="actionEnter"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>图书</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>加入我们</string>
+    </property>
+    <addaction name="actionEmployment"/>
+    <addaction name="actionManagement"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>个人中心</string>
+    </property>
+    <addaction name="actionInfo_Maintaince"/>
+    <addaction name="actionInfo_maintaince"/>
+    <addaction name="actionDeposit"/>
+    <addaction name="actionmyAssignment"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEnter">
+   <property name="text">
+    <string>Enter</string>
+   </property>
+  </action>
+  <action name="actionEmployment">
+   <property name="text">
+    <string>Employment</string>
+   </property>
+  </action>
+  <action name="actionManagement">
+   <property name="text">
+    <string>Management</string>
+   </property>
+  </action>
+  <action name="actionInfo_Maintaince">
+   <property name="text">
+    <string>Enter</string>
+   </property>
+  </action>
+  <action name="actionInfo_maintaince">
+   <property name="text">
+    <string>Info maintaince</string>
+   </property>
+  </action>
+  <action name="actionDeposit">
+   <property name="text">
+    <string>Deposit</string>
+   </property>
+  </action>
+  <action name="actionmyAssignment">
+   <property name="text">
+    <string>myAssignment</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
